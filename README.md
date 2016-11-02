@@ -27,6 +27,8 @@
 * [UX considerations: parallax attention getter or headache](UX considerations 
 )
 
+* [Simple parallax demo](http://keithclark.co.uk/articles/pure-css-parallax-websites/demo1/)
+
 
 
 

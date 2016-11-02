@@ -8,6 +8,10 @@
 
 * [One Page Scroll](https://github.com/peachananr/onepage-scroll)
 
+## General
+
+* [The future of blogging](https://www.elegantthemes.com/blog/editorial/the-future-of-blogging)
+
 ## Dissecting 
 
 ### Full page height and width sections
@@ -28,6 +32,9 @@
 )
 
 * [Simple parallax demo](http://keithclark.co.uk/articles/pure-css-parallax-websites/demo1/)
+
+
+* [Overview of parallax and wordpress](https://www.elegantthemes.com/blog/resources/wordpress-parallax-effect) 2014
 
 
 

@@ -20,6 +20,13 @@
 * [Stretching a section of a page to full height and width](https://css-tricks.com/forums/topic/stretch-a-section-of-page-to-full-height-and-width/)
 
 
+### Parallax
+
+* [On theory of pure CSS parallax](http://keithclark.co.uk/articles/pure-css-parallax-websites/)
+
+* [UX considerations: parallax attention getter or headache](UX considerations 
+)
+
 
 
 

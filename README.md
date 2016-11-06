@@ -147,3 +147,35 @@ This could be interesting, if there was a way for the user to fit, i.e. to disab
 Based in [CSS3 demo from FullPage.js](http://www.taboca.com/dd/fullPage.js-master/examples/css3.html), it seems as a good approach that improves performance in mobile and other devices. Nevertheless, as the frameworks aims to maintain compatibility among browsers, the jQuery Animate is also used.
 
 A consideration is to make an analysis of the jQuery and jQuery animation library extensions, for such cases; therefore to know when/detect the conditions in which JS data can be sent, perhaps dynamically, therefore to establish a managed control on performance versus aimed animation experience.
+
+### Touch-action
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action#Browser_compatibility https://msdn.microsoft.com/en-us/library/windows/apps/hh767313.aspx lets user manipulates the tag such as pan and zoom, etc.
+
+
+### Overscroll
+
+The overscroll js library is tiny and enables a user experience behavior which brings animation when user scroll beyond possible, beyond top or beyond bottom of  a page — https://github.com/tholman/overscroll. This won’t work in all browsers but since it’s a IOS thing, the actual experience could lead to something interesting.
+
+* Idea — perhaps double tap to overscroll, or an over over scroll, could move/bring a new section or change how page?
+
+### Considerations about scrollbar
+
+Perfect scrollbar project
+https://github.com/noraesae/perfect-scrollbar
+
+### Meta viewport
+
+https://developer.mozilla.org/en/docs/Mozilla/Mobile/Viewport_meta_tag
+
+
+### Touchstart event for mobile handling
+
+
+http://stackoverflow.com/questions/24058241/touch-device-single-and-double-tap-events-handler-jquery-javascript
+
+
+## Other future
+
+### CSS Basic Box Model
+https://drafts.csswg.org/css-box-3/#the-width-and-height-properties

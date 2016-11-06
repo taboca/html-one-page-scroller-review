@@ -109,3 +109,15 @@ From a user experience standpoint, Alvaro Trigo’s fullPage.js library offers t
 * [Reveal.js](https://github.com/hakimel/reveal.js)
 
 * [Alvaro Fullscreenjs](https://github.com/alvarotrigo/fullPage.js)
+
+## UX
+
+* [Check examples of fullscreen sites](https://colorlib.com/wp/fullscreen-html5-website-templates/)
+
+* [Double tap/zoom function on mobile devices](http://stackoverflow.com/questions/10614481/disable-double-tap-zoom-option-in-browser-on-touch-devices)
+
+* [Transforming (disabling) mobile doubletap as two clicks](https://gist.github.com/johan/2047491)
+
+### Full page and larger-than-full-page sections
+
+* [When slides data is bigger than screen](http://www.taboca.com/dd/fullPage.js-master/examples/responsiveAutoHeight.html#firstPage) is a case dealing to a condition when the slide content is too big and shows how to disable the whole system.

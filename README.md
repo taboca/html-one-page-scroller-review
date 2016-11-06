@@ -93,3 +93,13 @@ The recommendation is to have the alternate image.
 TBD — notice it would need to not use standard video, therefore it would be possible with simply using image, SVG, animated GIFs, and more. But also worth to consider exactly the very reasons for why the auto play is disabled in mobile devices.
 
 Perhaps a better heuristics to this would be for a page to know its bandwidth capability via either depending on feature information provided by the browser user agent, or testing some conditions.
+
+### Updating history and anchor management
+
+TBD
+
+### Looping
+
+ From a user experience standpoint, Alvaro Trigo’s fullPage.js library offers two approaches for looping experience. The first refers to when the bottom slide is reached, which moves back to the first, via a scrollbar animation. In another example, then the last slide is reached, it will bring the first at the end — a case referred as a continuous experience.
+
+ 

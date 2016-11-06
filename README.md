@@ -30,6 +30,10 @@
 
 TBD  
 
+### Fixed fullscreen background
+
+In Alvaro Trigo’s fullPage, the [Fixed Fullscreen Background example](http://alvarotrigo.com/fullPage/examples/backgrounds.html) will bring a new slide that has a fixed background.  
+
 ### Managed scrolling
 
 #### Bring back the standard scrollbar behaviour
@@ -38,15 +42,15 @@ Alvaro Trigo’s One Section example shows how to isolate a given section out of
 
 [Full Page example with the normal scrollbar behaviour](http://alvarotrigo.com/fullPage/examples/normalScroll.html#firstPage)
 
-### Fixed fullscreen background
-
-In Alvaro Trigo’s fullPage, the [Fixed Fullscreen Background example](http://alvarotrigo.com/fullPage/examples/backgrounds.html) will bring a new slide that has a fixed background.  
-
-### Scrolling and fixing content
+#### Scrolling and fixing content
 
 * [Scroll-Then-Fix Content](https://css-tricks.com/scroll-fix-content/) uses a search top bar demonstration to show the general idea which depends on maintaining two states when the user scrolls down the page. A main, top-level larger search is first displayed, and, as the scrollbar position passes certain threshold, then a JavaScript function switches the stage of an element using DOM CSS operations.
 
-* TBD Check if **Scrolling with fixed content** is the same thing — the case in which you are navigating (say) slides when suddenly some parts of the page gets fixed, til a further slide section down the page. 
+* TBD Check if **Scrolling with fixed content** is the same thing — the case in which you are navigating (say) slides when suddenly some parts of the page gets fixed, til a further slide section down the page.
+
+#### Scrolling speed, animation and magnets
+
+In many modern pages, the behaviour of scroll is being modified. In Alvaro Trigo’s fullPage.js, the demos related are: [Easing demo](http://www.taboca.com/dd/fullPage.js-master/examples/easing.html) and [Scrolling speed](http://www.taboca.com/dd/fullPage.js-master/examples/scrollingSpeed.html).  
 
 ### Parallax
 

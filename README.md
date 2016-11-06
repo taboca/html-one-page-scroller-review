@@ -110,7 +110,7 @@ From a user experience standpoint, Alvaro Trigo’s fullPage.js library offers t
 
 * [Alvaro Fullscreenjs](https://github.com/alvarotrigo/fullPage.js)
 
-## UX
+## UX considerations, issues
 
 * [Check examples of fullscreen sites](https://colorlib.com/wp/fullscreen-html5-website-templates/)
 
@@ -120,4 +120,6 @@ From a user experience standpoint, Alvaro Trigo’s fullPage.js library offers t
 
 ### Full page and larger-than-full-page sections
 
-* [When slides data is bigger than screen](http://www.taboca.com/dd/fullPage.js-master/examples/responsiveAutoHeight.html#firstPage) is a case dealing to a condition when the slide content is too big and shows how to disable the whole system.
+* [When slides data is bigger than screen](http://www.taboca.com/dd/fullPage.js-master/examples/responsiveAutoHeight.html#firstPage) is a case dealing to a condition when the slide content is too big and shows how to disable the whole system. However, it is important to observe that such a mode, of operation, is triggered based in a condition of responsiveness and not based in a user experience need. The trigger is simply the width of the page.
+
+An issue, that should be addressed in this discussion, is to consider the means for knowing when the content is larger than its displaying element that has embedded it.

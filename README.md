@@ -139,3 +139,12 @@ The automatic scrolling can be an issue when the user has a full flexibility to 
 In Alvaro's [Normal scroll demo](http://www.taboca.com/dd/fullPage.js-master/examples/normalScroll.html) as you position the scroll page to a certain area, it will asynchronously (lazy-fit) the scrollbar so the current section is fit to the full screen size.
 
 This could be interesting, if there was a way for the user to fit, i.e. to disable this easily or flip/tap enable/engage in this as needed.
+
+## Ideas, considerations on standards, cross-browser issues and more
+
+### CSS3 animations and performance
+
+Based in [CSS3 demo from FullPage.js](http://www.taboca.com/dd/fullPage.js-master/examples/css3.html), it seems as a good approach that improves performance in mobile and other devices. Nevertheless, as the frameworks aims to maintain compatibility among browsers, the jQuery Animate is also used. 
+
+
+A consideration here would be on analysis of the jquery + jquery animate size to know when to send JS data and what these elements are really doing in the end of the day, such as to consider some alternate basic animation library.

@@ -144,7 +144,6 @@ This could be interesting, if there was a way for the user to fit, i.e. to disab
 
 ### CSS3 animations and performance
 
-Based in [CSS3 demo from FullPage.js](http://www.taboca.com/dd/fullPage.js-master/examples/css3.html), it seems as a good approach that improves performance in mobile and other devices. Nevertheless, as the frameworks aims to maintain compatibility among browsers, the jQuery Animate is also used. 
+Based in [CSS3 demo from FullPage.js](http://www.taboca.com/dd/fullPage.js-master/examples/css3.html), it seems as a good approach that improves performance in mobile and other devices. Nevertheless, as the frameworks aims to maintain compatibility among browsers, the jQuery Animate is also used.
 
-
-A consideration here would be on analysis of the jquery + jquery animate size to know when to send JS data and what these elements are really doing in the end of the day, such as to consider some alternate basic animation library.
+A consideration is to make an analysis of the jQuery and jQuery animation library extensions, for such cases; therefore to know when/detect the conditions in which JS data can be sent, perhaps dynamically, therefore to establish a managed control on performance versus aimed animation experience.

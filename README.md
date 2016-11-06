@@ -76,4 +76,20 @@ Alvaro Trigo’s One Section example shows how to isolate a given section out of
 Alvaro Trigo’s fullPage.js provides a great example of animated video background. This
 Framework, as many others, recognises the [issue of video backgrounds](https://github.com/alvarotrigo/fullPage.js/issues/1903) not being enabled in mobile devices.
 
-The disabled video backgrounds started with IOS and has to do with bandwidth and UX considerations. Also, in Android, after 4.1+, based in [this post](https://www.aerserv.com/why-does-video-autoplay-on-mobile-devices-not-work). Therefore, such issue is not related specifically to video backgrounds and it’s simply related to the autoplay feature of videos. 
+The disabled video backgrounds started with IOS and has to do with bandwidth and UX considerations. Also, in Android, after 4.1+, based in [this post](https://www.aerserv.com/why-does-video-autoplay-on-mobile-devices-not-work). Therefore, such issue is not related specifically to video backgrounds and it’s simply related to the autoplay feature of videos.
+
+#### Workarounds with video backgrounds
+
+The recommendation is to have the alternate image.
+
+#### HTML5 video
+
+* [HTML5 video jumpstart examples](http://callmenick.com/post/html5-video-jumpstart-examples)
+
+* [HTML5 video background examples](https://envato.com/blog/video-background-html5-video/)
+
+#### Workaround examples working with mobile
+
+TBD — notice it would need to not use standard video, therefore it would be possible with simply using image, SVG, animated GIFs, and more. But also worth to consider exactly the very reasons for why the auto play is disabled in mobile devices.
+
+Perhaps a better heuristics to this would be for a page to know its bandwidth capability via either depending on feature information provided by the browser user agent, or testing some conditions.

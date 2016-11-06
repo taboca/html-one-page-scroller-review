@@ -38,6 +38,18 @@ Alvaro Trigo’s One Section example shows how to isolate a given section out of
 
 [Full Page example with the normal scrollbar behaviour](http://alvarotrigo.com/fullPage/examples/normalScroll.html#firstPage)
 
+### Scrolling with fixed content
+
+TBD
+
+### Fixed fullscreen background
+
+In Alvaro Trigo’s fullPage, the [Fixed Fullscreen Background example](http://alvarotrigo.com/fullPage/examples/backgrounds.html) will bring a new slide that has a fixed background.  
+
+### Scrolling and fixing content
+
+* [Scroll-Then-Fix Content](https://css-tricks.com/scroll-fix-content/) uses a search top bar demonstration to show the general idea which depends on maintaining two states when the user scrolls down the page. A main, top-level larger search is first displayed, and, as the scrollbar position passes certain threshold, then a JavaScript function switches the stage of an element using DOM CSS operations. 
+
 ### Parallax
 
 * [On theory of pure CSS parallax](http://keithclark.co.uk/articles/pure-css-parallax-websites/)

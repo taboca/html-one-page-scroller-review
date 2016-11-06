@@ -36,6 +36,10 @@ In Alvaro Trigo’s fullPage, the [Fixed Fullscreen Background example](http://a
 
 ### Managed scrolling
 
+#### Fixed elements (fixed header and footer)
+
+Fixing header, or footer, is a common use case — see Alvaro's demo oon Fixed Header](http://alvarotrigo.com/fullPage/examples/fixedHeaders.html).
+
 #### Bring back the standard scrollbar behaviour
 
 Alvaro Trigo’s One Section example shows how to isolate a given section out of the full page behaviour, which can be a desired use case to provide the standard scrollbar behaviour. From the documentation, he claims “Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.”

@@ -26,6 +26,18 @@
 
 * [Alvaro Trigo's callback example](http://www.taboca.com/dd/fullPage.js-master/examples/callbacks.html) shows how animation, and other JavaScript behaviour, can be triggered when the section becomes viewed.
 
+### Responsiveness
+
+TBD  
+
+### Managed scrolling
+
+#### Bring back the standard scrollbar behaviour
+
+Alvaro Trigo’s One Section example shows how to isolate a given section out of the full page behaviour, which can be a desired use case to provide the standard scrollbar behaviour. From the documentation, he claims “Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.”
+
+[Full Page example with the normal scrollbar behaviour](http://alvarotrigo.com/fullPage/examples/normalScroll.html#firstPage)
+
 ### Parallax
 
 * [On theory of pure CSS parallax](http://keithclark.co.uk/articles/pure-css-parallax-websites/)

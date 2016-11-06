@@ -50,7 +50,7 @@ Fixing header, or footer, is a common use case — see Alvaro's demo oon Fixed H
 
 In many modern pages, the behaviour of scroll is being modified. In Alvaro Trigo’s fullPage.js, the demos related are: [Easing demo](http://www.taboca.com/dd/fullPage.js-master/examples/easing.html) and [Scrolling speed](http://www.taboca.com/dd/fullPage.js-master/examples/scrollingSpeed.html).  
 
-#### Disabling scrollbar animation controls dynamically 
+#### Disabling scrollbar animation controls dynamically
 
 Alvaro Trigo’s One Section example shows how to isolate a given section out of the full page behaviour, which can be a desired use case to provide the standard scrollbar behaviour. From the documentation, he claims “Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.”
 
@@ -68,3 +68,12 @@ Alvaro Trigo’s One Section example shows how to isolate a given section out of
 
 
 * [Overview of parallax and wordpress](https://www.elegantthemes.com/blog/resources/wordpress-parallax-effect) 2014
+
+### Video backgrounds
+
+#### Video backgrounds not working on mobile - and UX considerations
+
+Alvaro Trigo’s fullPage.js provides a great example of animated video background. This
+Framework, as many others, recognises the [issue of video backgrounds](https://github.com/alvarotrigo/fullPage.js/issues/1903) not being enabled in mobile devices.
+
+The disabled video backgrounds started with IOS and has to do with bandwidth and UX considerations. Also, in Android, after 4.1+, based in [this post](https://www.aerserv.com/why-does-video-autoplay-on-mobile-devices-not-work). Therefore, such issue is not related specifically to video backgrounds and it’s simply related to the autoplay feature of videos. 

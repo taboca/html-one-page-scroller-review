@@ -123,3 +123,7 @@ From a user experience standpoint, Alvaro Trigo’s fullPage.js library offers t
 * [When slides data is bigger than screen](http://www.taboca.com/dd/fullPage.js-master/examples/responsiveAutoHeight.html#firstPage) is a case dealing to a condition when the slide content is too big and shows how to disable the whole system. However, it is important to observe that such a mode, of operation, is triggered based in a condition of responsiveness and not based in a user experience need. The trigger is simply the width of the page.
 
 An issue, that should be addressed in this discussion, is to consider the means for knowing when the content is larger than its displaying element that has embedded it.
+
+### Touch pan and auto scrolling
+
+The automatic scrolling can be an issue when the user has a full flexibility to pan, for example with mobile devices. FullPage.js, for example, won’t have a mode of navigation that can support a touch-and-pan (when the user is scrolling with a finger) which could disable the autoScrolling feature.

@@ -100,6 +100,12 @@ TBD
 
 ### Looping
 
- From a user experience standpoint, Alvaro Trigo’s fullPage.js library offers two approaches for looping experience. The first refers to when the bottom slide is reached, which moves back to the first, via a scrollbar animation. In another example, then the last slide is reached, it will bring the first at the end — a case referred as a continuous experience.
+From a user experience standpoint, Alvaro Trigo’s fullPage.js library offers two approaches for looping experience. The first refers to when the bottom slide is reached, which moves back to the first, via a scrollbar animation. In another example, then the last slide is reached, it will bring the first at the end — a case referred as a continuous experience.
 
- 
+## Do it all frameworks (UX compound)
+
+* [In development: React and Full page](https://github.com/subtirelumihail/react-fullpage)
+
+* [Reveal.js](https://github.com/hakimel/reveal.js)
+
+* [Alvaro Fullscreenjs](https://github.com/alvarotrigo/fullPage.js)
